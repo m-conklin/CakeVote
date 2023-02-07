@@ -13,6 +13,7 @@
 		5B69C3FF298B97440051862F /* BaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69C3FE298B97440051862F /* BaseUITests.swift */; };
 		5B69C401298B97440051862F /* BaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69C400298B97440051862F /* BaseUITestsLaunchTests.swift */; };
 		5B69C410298B99090051862F /* FeatureApp in Frameworks */ = {isa = PBXBuildFile; productRef = 5B69C40F298B99090051862F /* FeatureApp */; };
+		5BDD4AD92991E18A00B605B4 /* Photo in Resources */ = {isa = PBXBuildFile; fileRef = 5BDD4AD82991E18A00B605B4 /* Photo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,7 @@
 		5B69C3FA298B97440051862F /* BaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B69C3FE298B97440051862F /* BaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUITests.swift; sourceTree = "<group>"; };
 		5B69C400298B97440051862F /* BaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5B69C40D298B97B10051862F /* Photo */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Photo; path = ../../Photo; sourceTree = "<group>"; };
+		5BDD4AD82991E18A00B605B4 /* Photo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Photo; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +97,7 @@
 		5B69C3E1298B97430051862F /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				5B69C40D298B97B10051862F /* Photo */,
+				5BDD4AD82991E18A00B605B4 /* Photo */,
 				5B69C3E6298B97440051862F /* Assets.xcassets */,
 				5B69C3E8298B97440051862F /* Base.entitlements */,
 				5B21C86D2990AA060042F94B /* Info.plist */,
@@ -244,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDD4AD92991E18A00B605B4 /* Photo in Resources */,
 				5B69C3EB298B97440051862F /* Preview Assets.xcassets in Resources */,
 				5B69C3E7298B97440051862F /* Assets.xcassets in Resources */,
 			);
