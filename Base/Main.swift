@@ -1,4 +1,5 @@
 import ComposableArchitecture
+import FeatureApp
 import SwiftUI
 
 @main

@@ -145,14 +145,14 @@ public let rootReducer = AnyReducer<RootState, RootAction, RootEnvironment>.comb
     }
 )
 
-struct RootView: View {
+public struct RootView: View {
     let store: Store<RootState, RootAction>
     
     public init(store: Store<RootState, RootAction>) {
         self.store = store
     }
     
-    var body: some View {
+    public var body: some View {
         WithViewStore(store) { viewStore in
             VStack(spacing: 18) {
                 Spacer()

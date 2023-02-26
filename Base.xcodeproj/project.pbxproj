@@ -12,7 +12,8 @@
 		5B69C3F5298B97440051862F /* BaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69C3F4298B97440051862F /* BaseTests.swift */; };
 		5B69C3FF298B97440051862F /* BaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69C3FE298B97440051862F /* BaseUITests.swift */; };
 		5B69C401298B97440051862F /* BaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69C400298B97440051862F /* BaseUITestsLaunchTests.swift */; };
-		5B69C410298B99090051862F /* FeatureApp in Frameworks */ = {isa = PBXBuildFile; productRef = 5B69C40F298B99090051862F /* FeatureApp */; };
+		5BC6980229AC1AD0005B3F72 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6980129AC1AD0005B3F72 /* Main.swift */; };
+		5BC6980529AC1BCB005B3F72 /* FeatureApp in Frameworks */ = {isa = PBXBuildFile; productRef = 5BC6980429AC1BCB005B3F72 /* FeatureApp */; };
 		5BDD4AD92991E18A00B605B4 /* Photo in Resources */ = {isa = PBXBuildFile; fileRef = 5BDD4AD82991E18A00B605B4 /* Photo */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		5B69C3FA298B97440051862F /* BaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B69C3FE298B97440051862F /* BaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUITests.swift; sourceTree = "<group>"; };
 		5B69C400298B97440051862F /* BaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BC6980129AC1AD0005B3F72 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		5BDD4AD82991E18A00B605B4 /* Photo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Photo; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -52,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B69C410298B99090051862F /* FeatureApp in Frameworks */,
+				5BC6980529AC1BCB005B3F72 /* FeatureApp in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,11 +78,12 @@
 		5B69C3D6298B97430051862F = {
 			isa = PBXGroup;
 			children = (
+				5BDD4AD82991E18A00B605B4 /* Photo */,
 				5B69C3E1298B97430051862F /* Base */,
 				5B69C3F3298B97440051862F /* BaseTests */,
 				5B69C3FD298B97440051862F /* BaseUITests */,
 				5B69C3E0298B97430051862F /* Products */,
-				5B69C40E298B99090051862F /* Frameworks */,
+				5BC6980329AC1BCB005B3F72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +100,8 @@
 		5B69C3E1298B97430051862F /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				5BDD4AD82991E18A00B605B4 /* Photo */,
 				5B69C3E6298B97440051862F /* Assets.xcassets */,
+				5BC6980129AC1AD0005B3F72 /* Main.swift */,
 				5B69C3E8298B97440051862F /* Base.entitlements */,
 				5B21C86D2990AA060042F94B /* Info.plist */,
 				5B69C3E9298B97440051862F /* Preview Content */,
@@ -131,7 +134,7 @@
 			path = BaseUITests;
 			sourceTree = "<group>";
 		};
-		5B69C40E298B99090051862F /* Frameworks */ = {
+		5BC6980329AC1BCB005B3F72 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -155,7 +158,7 @@
 			);
 			name = Base;
 			packageProductDependencies = (
-				5B69C40F298B99090051862F /* FeatureApp */,
+				5BC6980429AC1BCB005B3F72 /* FeatureApp */,
 			);
 			productName = Base;
 			productReference = 5B69C3DF298B97430051862F /* Base.app */;
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC6980229AC1AD0005B3F72 /* Main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Base/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Base;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -470,6 +475,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Base/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Base;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -498,6 +504,7 @@
 		5B69C408298B97440051862F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -520,6 +527,7 @@
 		5B69C409298B97440051862F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -542,6 +550,7 @@
 		5B69C40B298B97440051862F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 36BAQ24D3W;
@@ -563,6 +572,7 @@
 		5B69C40C298B97440051862F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 36BAQ24D3W;
@@ -623,7 +633,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5B69C40F298B99090051862F /* FeatureApp */ = {
+		5BC6980429AC1BCB005B3F72 /* FeatureApp */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FeatureApp;
 		};
